@@ -1,13 +1,13 @@
 import streamlit as st
 
-from core.memory import load_memory
-from core.task_manager import load_tasks, add_task
+from memory import load_memory
+from task_manager import load_tasks, add_task
 
-from agents.ceo import CEO
-from agents.cto import CTO
-from agents.engineer import Engineer
-from agents.marketer import Marketer
-from agents.cfo import CFO
+from ceo import CEO
+from cto import CTO
+from engineer import Engineer
+from marketer import Marketer
+from cfo import CFO
 
 memory = load_memory()
 tasks = load_tasks()
