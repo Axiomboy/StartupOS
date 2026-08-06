@@ -1,6 +1,6 @@
 import json
 
-TASK_FILE = "data/tasks.json"
+TASK_FILE = "tasks.json"
 
 
 def load_tasks():
